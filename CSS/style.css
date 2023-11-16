@@ -1,0 +1,635 @@
+html{
+    scroll-behavior: smooth;
+    transition: 5s;
+}
+section {
+    width: 1512px;
+    height: 182px;
+    flex-shrink: 0;
+    background: #F6EEE9;
+}
+
+.active{ 
+    color: #FFF;
+}
+body {
+    background: #F6EEE9;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+nav ul li{ 
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+
+}
+
+a.active,a:hover{
+    transition: .7s;
+    font-size: 20px;
+    background-color: #F1D7C7;
+}
+
+h1 {
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+text-align: left;
+padding-top: 395px;
+padding-left: 6%;
+}
+
+h2 {
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+
+.pOne {
+    color: #7D5A30;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1px;
+position: relative;
+margin-top: 4%;
+}
+
+section ul{
+    column-count: 3;
+    column-gap:5px;
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    position: relative;
+    margin-top: 5%;
+}
+
+
+.flexboxContainer{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.firstBox {
+width: 100%;
+max-width: 500px;
+height: 100%;
+max-height: 23px;
+ padding: 70px;
+ position: absolute;
+ top: 285.3px;
+ border: 1px solid #735645;
+}
+
+.pictureBox {
+ display: inline-block;
+ width: 100%;
+ max-width: 604px;
+ max-height: 889px;
+ height: 114%;
+ position: absolute;
+ top: 220.5px;
+ border: 1px solid #735645;
+ left: 649px;
+flex-shrink: 0;
+}
+
+.momBox {
+    padding-top: 200px;
+    display: inline-block;
+    border: 1px solid #735645;
+}
+
+
+.logo {
+    margin-left: 10px;
+}
+
+
+h6{
+color: #7D5A30;
+font-family: Montserrat;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.4px;
+}
+
+
+.starOne {
+    position: absolute;
+    width: 100%;
+    max-width: 87px;
+    height: auto;
+    top: -44px;
+    left: 33px
+}
+
+.starTwo {
+    position: absolute;
+    top: 120px;
+    right: 33px;
+    z-index: 4;
+    
+}
+
+.paragraphBox{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 170px;
+    padding: 70px;
+    position: absolute;
+    top:449.7px;
+    border: 1px solid #735645;
+}
+
+.circleOne{
+position: absolute;
+top: -43px;
+left: -43px;
+}
+
+.circleTwo{
+    position: absolute;
+top: 846px;
+left: 561px;
+z-index: 4;
+
+}
+
+.portrait {
+
+position: absolute;
+left: 43px;
+top: 43px
+}
+
+.starBox{
+    height: 100%;
+    max-height: 174px;
+    width: 100%;
+    max-width: 180px;
+    position: absolute;
+    top: 760.5px;
+    left: 468px;
+    border: 1px solid #735645;
+    flex-shrink: 0;
+}
+
+.sixStar{
+    position: absolute;
+    top: 38px;
+    left: 42px;
+}
+
+.flowerBox{
+    height: 100%;
+    max-height: 650px;
+    width: 100%;
+    max-width: 459px;
+    position:absolute;
+    top: 760.5px;
+    border: 1px solid #735645;
+    flex-shrink: 0;
+}
+
+.flowers {
+    width: 100%;
+    max-width: 373px;
+    position: absolute;
+    top: 43px;
+    left: 43px;
+}
+
+.ovalBox{
+    height: 100%;
+    max-height: 174px;
+    width: 180px;
+    position: absolute;
+    left: 468px;
+    top: 935.5px;
+    border: 1px solid #735645;
+    flex-shrink: 0;
+}
+
+.oval{
+    height: 100px ;
+    position: absolute;
+    top: 30px;
+    left: 42px;
+
+}
+
+.skills{
+    width: 100%;
+    max-width: 912px;
+    height: 100%;
+    max-height: 160px;
+    position: absolute;
+    top: 1110.5px;
+    left: 468px;
+    padding: 70px;
+    border: 1px solid #7D5A30;
+}
+
+h2{
+    position: absolute;
+    top: 10px;
+}
+
+.pTwo{
+    color: #7D5A30;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1px;
+position: relative;
+top: 50px
+}
+
+footer{
+    margin-top: 1282px;
+    height: 400px;
+    width: 100%;
+    border: 1px solid #7D5A30
+}
+
+.pinkLogo {
+    padding: 5%;
+    position: absolute;
+}
+
+h3{
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+padding-top: 13%;
+padding-left: 113px;
+text-align: left;
+
+}
+
+h4{
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+text-align: left;
+margin-left:113px ;
+margin-top: 10px;
+
+}
+
+h5 {
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 420;
+    line-height: 0px;
+    letter-spacing: 0.75px;
+    margin-left: 113px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+hr {
+
+    border: 0.5px solid #7D5A30;
+    width: 350px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    top: 0px;
+    left: 0px;
+    width: 90%;
+    padding: 1.3rem 10%;
+    background-color:#F6EEE9;
+
+}
+
+.navbar a{
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    padding: 7px 13px;
+    border-radius: 0px;
+
+}
+
+.menu{
+    position: absolute;
+    right: 5%;
+    font-size: 25px;
+    color: #7d5a30;
+    float: right;
+    line-height: 80px;
+    margin-top: 25px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.contactBox{
+    border: 1px solid #7D5A30;
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    left: 8px;
+    top: 1411.5;
+}
+
+.arrowOne{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -13px;
+}
+
+.arrowTwo{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -5px;
+}
+
+.arrowThree{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -13px;
+}
+
+.postal {
+    left: 576px;
+    position: relative;
+}
+
+.logoFooter{
+    right: 50px;
+    margin-top: 40px;
+    position: absolute;
+
+}
+
+#check {
+    display: none;
+}
+.postalBox{
+    position: absolute;
+    top: 1411.5px;
+    left: 585px;
+    width: 60%;
+    border: #735645 1px solid;
+}
+
+@media only screen and (max-width: 821px) {
+
+    nav ul li a {
+        font-size: 16px;
+    
+    }
+
+    .postal{
+        display: none;
+    }
+    
+    .logoFooter{
+        display:none;
+    }
+
+}
+
+
+/* Add this media query for iPad-sized screens */
+@media screen and (max-width: 768px) {
+    section {
+        width: 100%;
+        height: auto; /* Allow content to determine height */
+    }
+
+    .header {
+        padding: 1.3rem 5%; /* Adjust padding for smaller screens */
+    }
+
+    .navbar {
+        margin-top: 10px; /* Adjust top margin for the navbar */
+    }
+
+    .menu {
+        display: block; /* Show the menu icon on smaller screens */
+    }
+
+    nav ul {
+        float: none;
+        margin: 0;
+        margin-top: 20px; /* Adjust top margin for the list */
+        text-align: center; /* Center the navigation links */
+    }
+
+    nav ul li {
+        display: block;
+        line-height: 40px; /* Increase line-height for better touch interaction */
+        margin: 10px 0; /* Add some spacing between list items */
+    }
+
+    a.active, a:hover {
+        font-size: 16px; /* Adjust font size for better readability */
+    }
+
+    h1 {
+        font-size: 24px; /* Reduce the font size for the heading */
+        padding-top: 50px; /* Adjust top padding */
+        padding-left: 5%; /* Adjust left padding */
+    }
+
+    .flexboxContainer {
+        flex-direction: column; /* Stack content in a single column */
+    }
+
+    .firstBox, .paragraphBox, .pictureBox, .starBox, .ovalBox, .flowerBox {
+        width: 100%; /* Make content full-width */
+        padding: 5%; /* Adjust padding */
+    }
+
+    .circleOne, .circleTwo {
+        display: none; /* Hide the circles */
+    }
+
+    .starOne, .starTwo {
+        display: none; /* Hide the stars */
+    }
+
+    .portrait {
+        width: 100%; /* Make the image full-width */
+        position: relative; /* Remove absolute positioning */
+        top: 0; /* Reset top position */
+        left: 0; /* Reset left position */
+    }
+
+    .skills {
+        width: 90%; /* Make the skills section wider */
+        padding: 5%; /* Adjust padding */
+    }
+
+    .contactBox {
+        width: 90%; /* Make the contact box wider */
+        top: 0; /* Reset the top position */
+        left: 5%; /* Adjust left positioning */
+    }
+
+    .arrowOne, .arrowTwo, .arrowThree {
+        left: 5%; /* Adjust left positioning for arrows */
+    }
+
+    .postal {
+        display: none; /* Hide the postal image */
+    }
+
+    .logoFooter {
+        display: none; /* Hide the footer logo */
+    }
+}
+
+/* Add this media query for smaller screens, e.g., smartphones */
+@media screen and (max-width: 480px) {
+    /* Add specific CSS rules for smaller screens if needed */
+}
+
+/* Add this media query for iPhone-sized screens */
+@media screen and (max-width: 480px) {
+    section {
+        width: 100%;
+    }
+
+    .header {
+        padding: 1rem 5%; /* Further adjust padding for smaller screens */
+    }
+
+    .navbar {
+        margin-top: 10px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    nav ul {
+        float: none;
+        margin: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        line-height: 30px; /* Make line-height smaller for iPhone-sized screens */
+        margin: 10px 0;
+    }
+
+    a.active, a:hover {
+        font-size: 14px; /* Further reduce font size for better readability on small screens */
+    }
+
+    h1 {
+        font-size: 20px; /* Reduce the font size for the heading even further */
+        padding-top: 30px; /* Adjust top padding */
+        padding-left: 5%;
+    }
+
+    .flexboxContainer {
+        flex-direction: column;
+    }
+
+    .firstBox, .paragraphBox, .pictureBox, .starBox, .ovalBox, .flowerBox {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .circleOne, .circleTwo {
+        display: none;
+    }
+
+    .starOne, .starTwo {
+        display: none;
+    }
+
+    .portrait {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .skills {
+        width: 90%;
+        padding: 5%;
+    }
+
+    .contactBox {
+        width: 90%;
+        top: 0;
+        left: 5%;
+    }
+
+    .arrowOne, .arrowTwo, .arrowThree {
+        left: 5%;
+    }
+
+    .postal {
+        display: none;
+    }
+
+    .logoFooter {
+        display: none;
+    }
+}
+
+

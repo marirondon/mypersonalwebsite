@@ -1,0 +1,435 @@
+html{
+    scroll-behavior: smooth;
+    transition: 5s;
+}
+section {
+    width: 1440px;
+    height: 1300px;
+    flex-shrink: 0;
+    background: #F6EEE9;
+    margin-top: 70px;
+}
+
+body {
+    background: #F6EEE9;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+hr {
+
+    border: 0.5px solid #7D5A30;
+    width: 350px;
+    
+}
+
+h1 {
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+text-align: center;
+padding: 1.5%
+}
+
+h2 {
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+text-align: center;
+padding: 1.5%
+}
+
+
+nav{
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+nav ul li{ 
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+
+}
+
+a.active,a:hover{
+    transition: .7s;
+    font-size: 20px;
+    background-color: #F1D7C7;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    top: 0px;
+    left: 0px;
+    width: 90%;
+    padding: 1.3rem 10%;
+    background-color:#F6EEE9;
+
+}
+
+.navbar a{
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    padding: 7px 13px;
+    border-radius: 0px;
+
+}
+
+.menu{
+    position: absolute;
+    right: 5%;
+    font-size: 25px;
+    color: #7d5a30;
+    float: right;
+    line-height: 80px;
+    margin-top: 25px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+h6{
+color: #7D5A30;
+font-family: Montserrat;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.4px;
+}
+
+
+
+h3{
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+text-align: center;
+padding-top: 12%;
+
+}
+
+h4{
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+text-align: left;
+margin-left:113px ;
+margin-top: 10px;
+
+}
+
+h5 {
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 420;
+    line-height: 0px;
+    letter-spacing: 0.75px;
+    margin-left: 113px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.headBox{
+    border: 1px solid #735645;
+    position: relative;
+    top: 50px;
+    width: 1440px;
+    height: 142px;
+    
+}
+.starOne{
+    position: absolute;
+    left: 180px;
+    top: -44px;
+}
+
+.starTwo{
+    position: absolute;
+    right: 180px;
+    top:99px;
+    z-index: 1;
+
+}
+
+
+.aboutMeTex{
+    border: 1px solid #735645;
+    height: 250px;
+    width: 1440px;
+    position: relative;
+    top: 49px;
+}
+
+p{
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    padding: 70px
+}
+
+
+.myUxTop{
+    border: 1px solid #735645;
+    height:142px ;
+}
+
+.boxStar-1{
+    border: 1px solid #735645;
+    width: 150px;
+    height: 142px;
+   position: relative;
+   top: 48px;
+   display: none;
+
+}
+
+.boxStar-2{
+    border: 1px solid #735645;
+    width: 149px;
+    height: 142px;
+    position: absolute;
+    top: 573.5px;
+    right: -10px;
+display: none;
+}
+
+.six-star-1{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.six-star-2{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.flexbox-container{
+    display: flex;
+    height: 412px;
+}
+
+.myUx {
+    text-align: center;
+    left:10px;
+}
+
+.myUxTop {
+    width: 100%;
+    height: 142px;
+    position: absolute;
+    top: 643.5px;
+}
+
+.flexbox-container {
+    width:1442px ;
+    height: 412px;
+    position: relative;
+    top: 191px;
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox-item1 {
+    width: 480.5px;
+    border: 1px solid #735645;
+}
+
+.flexbox-item2 {
+    border: 1px solid #735645;
+    width: 480.5px;
+    
+
+}
+
+.flexbox-item3 {
+    border: 1px solid #735645;
+    width: 480.5px;
+   
+}
+
+.myUiTop {
+    border: 1px solid #735645;
+    position: relative;
+    top: 190px;
+    width: 1440px;
+    height: 142px;
+}
+
+.circleOne {
+    position: absolute;
+    left: 180px;
+    top: 1085px;
+    z-index: 1;
+    display: none;
+}
+
+.circleTwo {
+    position: absolute;
+    right: 180px;
+    top: 1227px;
+    z-index: 1;
+    display: none;
+    
+}
+
+.flex-container2 {
+    width:1442px ;
+    height: 412px;
+    position: relative;
+    top: 189.1px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 350px;
+    height: 400px;
+    width: 100%;
+    border: 1px solid #7D5A30
+
+
+}
+
+.contactBox{
+    border: 1px solid #7D5A30;
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    left: 8px;
+    top: 1849.5px
+}
+.Portfolio {
+    border: 1px solid #735645;
+
+}
+
+a{
+    text-decoration: none;
+text-emphasis: none;}
+
+.active{
+    color: aqua;
+}
+
+
+.arrowOne{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -13px;
+}
+
+.arrowTwo{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -5px;
+}
+
+.arrowThree{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -13px;
+}
+
+.postal {
+    left: 576px;
+    position: relative;
+}
+
+.logoFooter {
+    right: 50px;
+    margin-top: 40px;
+    position: absolute;
+
+}
+
+.research {
+    position: relative;
+    left:110px;
+    top: 50px;
+}
+
+.researchText {
+    position: absolute;
+    left: 40px;
+}
+
+.testing {
+    position: relative;
+    left:95px;
+    top: 50px;
+}
+
+.information {
+    position: relative;
+    left:110px;
+    top: 50px;
+}
+
+.wireframing {
+    position: relative;
+    left:110px;
+    top: 50px;
+}
+
+.visual {
+    position: relative;
+    left:110px;
+    top: 50px;
+}
+
+.interaction {
+    position: relative;
+    left:120px;
+    top: 50px;
+}

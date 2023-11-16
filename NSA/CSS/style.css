@@ -1,0 +1,544 @@
+html{
+    scroll-behavior: smooth;
+    transition: 7s;
+}
+section {
+    width: 1512px;
+    height: 182px;
+    flex-shrink: 0;
+    background: #F6EEE9;
+}
+
+
+
+body {
+    background: #F6EEE9;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+nav ul li{ 
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+
+}
+
+nav a.active, nav a:hover{
+    transition: .7s;
+    background-color: #F1D7C7;
+
+}
+
+h1 {
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+text-align: center;
+padding-top: 20px;
+
+}
+
+h2 {
+    color: #7D5A30;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.arrowBack{
+    height: 25px;
+    position: absolute;
+    left: 100px;
+    margin-top: 100px;
+    transform: rotate(180deg);
+
+}
+
+.coverFF{
+width: 700px;
+margin-left: 30px;
+}
+
+ .FoodFinders {
+    height: 142px;
+    width: 50%;
+    border: 1px solid #735645;
+    margin-top: 50px;
+    margin-left: -142px;
+
+}
+
+ .projectDescription{
+    border: 1px solid #735645;
+    width: 50%;
+    height: 600px;
+    margin-left: -142px;
+    margin-top: -1px;
+ }
+
+ .projectImageBox{
+    height: 743px;
+    width: 50%;
+    display: inline-block;
+    border: 1px solid #735645;
+    margin-left: 615px;
+    margin-top: -745px;
+    background-color: #333333;
+ }
+
+ .designProcess{
+    height: 743px;
+    width: 52.5%;
+    display: inline-block;
+    border: 1px solid #735645;
+    margin-left: -1515px;
+    position: absolute;
+    margin-top: -1px;
+
+ }
+
+ .research{
+    height: 743px;
+    width: 50%;
+    display: inline-block;
+    border: 1px solid #735645;
+    margin-left: 615px;
+    margin-top: -1px;
+
+ }
+
+ .designProcessImg{
+    margin-left: 15px;
+    height: 100%;
+ }
+
+ .heuristicEva{
+    border: 1px solid #735645;
+    width: 100%;
+    margin-left: 0;
+    margin-left: -142px;
+    height:400px;
+    margin-top: -1px;
+ }
+
+ .heuristicEva h2{
+    margin-left: 50px;
+ }
+
+ .Results{
+    border: 1px solid #735645;
+    width: 100%;
+    height: 1700px;
+    margin-top: -1px;
+    margin-left: -142px;
+ }
+
+ .colorScheme{
+    height: 650px;
+    width: 50%;
+    display: inline-block;
+    border: 1px solid #735645;
+    margin-left: 613px;
+    margin-top: -1px;
+    background-color: white;
+ }
+
+ .moodboardImg{
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    left: 60px;
+ }
+
+ .colorSchemeimg{
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    left: 60px;
+ }
+
+ .typography{
+    height: 650px;
+    width: 52.4%;
+    display: inline-block;
+    border: 1px solid #735645;
+    margin-left: -142px;
+    position: absolute;
+    margin-top: -1px;
+    background-color: white;
+ } 
+ .typographyImg{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+
+.finalresults {
+    width: 100%;
+    border: 1px solid #735645;
+    height: 3000px;
+    margin-top: -1px;
+    margin-left: -142px;
+    background-color: #494949;
+
+}
+
+.finalresults h6{
+    color: white;
+}
+
+.link {
+border: #735645 1px solid;
+margin-top: -1px;
+width: 50%;
+margin-left: -142px;
+height: 90px;
+
+}
+
+.link-2{
+    border: #735645 1px solid;
+    margin-top: -92px;
+    width: 50%;
+    margin-left:615px ;
+    display: inline-block;
+    height: 90px;
+}
+
+
+.link h2{
+
+margin-top: 30px;
+}
+
+.link-2 h2{
+
+    margin-top: 30px;
+    }
+
+.NSABefore {
+    width: 100%;
+    max-width: 1500px;
+    position: relative;
+    left: 30px;
+}
+
+.NSAAfter {
+    width: 100%;
+    max-width: 1500px;
+}
+
+ .Results h2{
+    font-style: italic;
+    margin-left: 50px;
+    margin-top: 0px;
+ }
+
+
+.problem-1-img{
+    width: 100%;
+    max-width: 800px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+} 
+
+.problem-1-solution {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.ex-1{
+    margin-top: 40px;
+}
+.sppic{
+    width: 1500px;
+}
+
+.conclusion {
+    height: 230px;
+    width: 105%;
+    border: 1px solid #735645;
+    margin-left: -142px;
+    margin-top: -1px;
+    position: absolute;
+}
+p{
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+ }
+
+
+.logo {
+    margin-left: 10px;
+}
+
+ .logo.active, nav a:hover{
+    transition: .7s;
+    background-color: #F6EEE9}
+    
+
+h6{
+color: #7D5A30;
+font-family: Montserrat;
+font-size: 16px;
+font-style: medium;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1px;
+padding-left: 50px;
+padding-bottom: 0px;
+}
+
+section li{
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    position: relative;
+    padding-left: 50px;
+}
+
+
+footer{
+    margin-top: 7700px;
+    margin-left: -142px;
+    height: 400px;
+    width: 1500px;
+    border: 1px solid #7D5A30
+}
+
+.pinkLogo {
+    padding: 5%;
+    position: absolute;
+}
+
+h3{
+    color: #7d5625;
+font-family: Playfair Display;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+padding-top: 13%;
+padding-left: 113px;
+text-align: left;
+
+}
+
+h4{
+    color: #7D5A30;
+font-family: Playfair Display;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+text-align: left;
+margin-left:113px ;
+margin-top: 10px;
+
+}
+
+h5 {
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 420;
+    line-height: 0px;
+    letter-spacing: 0.75px;
+    margin-left: 113px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+hr {
+
+    border: 0.5px solid #7D5A30;
+    width: 350px;
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    top: 0px;
+    left: 0px;
+    width: 90%;
+    padding: 1.3rem 10%;
+    background-color:#F6EEE9;
+
+}
+
+.navbar a{
+    color: #7D5A30;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    padding: 7px 13px;
+    border-radius: 0px;
+
+}
+
+.menu{
+    position: absolute;
+    right: 5%;
+    font-size: 25px;
+    color: #7d5a30;
+    float: right;
+    line-height: 80px;
+    margin-top: 25px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.contactBox{
+    border: 1px solid #7D5A30;
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    left: 8px;
+    margin-top: -1px;
+}
+
+.arrowOne{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -13px;
+}
+
+.arrowTwo{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -5px;
+}
+
+.arrowThree{
+    height: 25px;
+    position: absolute;
+    left: 423px;
+    margin-top: -13px;
+}
+
+.postal {
+    left: 576px;
+    position: relative;
+}
+
+.logoFooter{
+    right: 50px;
+    margin-top: 40px;
+    margin-left: -140px;
+    position: absolute;
+
+}
+
+#check {
+    display: none;
+}
+.postalBox{
+    position: absolute;
+    top: 1411.5px;
+    left: 585px;
+    width: 60%;
+    border: #735645 1px solid;
+}
+
+@media only screen and (max-width: 821px) {
+
+    nav ul li a {
+        font-size: 16px;
+    
+    }
+
+    .postal{
+        display: none;
+    }
+    
+    .logoFooter{
+        display:none;
+    }
+
+}
+
+
+@media only screem and (max-width: 391px){
+    .menu { 
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #F1D7C7;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50 px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+
+    }
+
+    a:hover,a.active{
+        background: none;
+    
+    }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
